@@ -1,0 +1,34 @@
+/*Basic CRUD operations in sequelize
+
+Relations:
+    one to one:
+    { 
+    "dept_name": "john",
+    "emp": {
+        "name": "commerce",
+        "age": 27
+    }
+    }
+
+    one to many:
+    {
+    "dept_name": "john",
+    "emp": 
+    [
+        {
+            "name": "commerce",
+            "books": {
+                "book_name": "nodejs",
+                "book_author": "zyan"
+            }
+        },
+        {
+            "name": "mech",
+            "books": {
+                "book_name": "js",
+                "book_author": "mi"
+            }
+        }
+    ]
+}
+*/
