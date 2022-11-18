@@ -15,7 +15,14 @@ const books = require('../entities/books')
       type: DataTypes.STRING,
       allowNull: false
     },
-
+    lastname: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    age:{
+      type: DataTypes.INTEGER,
+      allowNull: true
+    },
     dept_id:{
       type: DataTypes.INTEGER,
       allowNull: true

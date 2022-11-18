@@ -13,6 +13,7 @@ router.get("/findemp/:emp_id", emp.findemp);
 router.get("/findemps", emp.findemps);
 router.post("/multi",emp.multioperation)
 router.delete("deleteall",emp.deleteaallemp)
+
 //RELATIONS USING DEPT
 router.put("/adddept", dept.addDept);
 router.post("/addbulk", dept.bulkCreate);
